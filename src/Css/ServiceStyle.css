@@ -1,0 +1,63 @@
+.text-center{
+    margin: 3em;
+    color: #ffa90a;
+  font-weight: 900;
+}
+.serviceContainer{
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(250, 252, 255);
+    
+}
+
+.row{
+    width: 28%;
+    display: flex;
+    margin: 10px;
+   justify-content: center;
+
+}
+.cardShow{
+    width:100%;
+    color: black;
+   background-color:white;
+   border: 1px solid rgb(226, 226, 226);
+   box-shadow: 1px 2px 30px rgb(201, 192, 192) ;
+   
+   
+}
+.cardImage{
+    margin-bottom: 2rem;
+    width: 50px;
+}
+.card-title{
+    margin-bottom: 8px;
+    font-size: 2em;
+    margin-left: 10px;
+}
+.btn{
+    margin-bottom: 50px;
+    margin: 0px auto;
+   color: black;
+   font-weight: bold;
+    background-color: #ffa808 ;
+    margin: 0px auto;
+}
+h5{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: rgb(224, 138, 0);
+    letter-spacing: 1px;
+}
+.cardImage{
+    width: 100%;
+}
+.para{
+    margin-left: 10px;
+    font-size: 17px;
+    text-align: left;
+
+}

@@ -1,0 +1,32 @@
+.container img{
+    width: 100%;
+    height: 80%;
+    object-fit:contain;
+    background-color:white;
+    background-blend-mode: darken;
+    
+    
+
+}
+
+.carousel-item img{
+ height: 540px;
+ width: 100%;
+ border-radius: 15px;
+ position: relative;
+
+}
+.carousel-item h5{
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    align-items: center;
+    margin: 0px auto;
+    
+
+}
+.carousel-item p{
+    color: rgb(255, 176, 17);
+    font-weight: 500;
+    font-size: 1rem;
+}

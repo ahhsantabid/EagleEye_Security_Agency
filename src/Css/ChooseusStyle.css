@@ -1,0 +1,34 @@
+.topPera{
+    margin-top: 3em;
+    font-size: 1.5em;
+}
+
+.topPera span{
+    color: #ffa90a;
+    font-weight: bold;
+}
+.chooseUsHeading{
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: #ffa90a;
+
+}
+.aboutperagraph{
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.whyusImage{
+    
+    align-items: center;
+    margin: 0px auto;
+    width: 1000px;
+}
+.whyusImage img{
+          
+           width: 60%;
+           align-items: center;  
+           margin-top: 2em;   
+           margin-left: 7em;
+      
+}

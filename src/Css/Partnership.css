@@ -1,0 +1,23 @@
+
+.text-center h1{
+    font-size: 3em;
+    margin-top: 2em ;
+}
+.partnershipPera{
+    width: 85%;
+    margin: 0px auto;
+    font-size: 1.3em;
+    background-color: #ffa90a;
+    padding: 40px;
+    
+}
+
+.partnershipPera span{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.image img{
+    width: 85%;
+    margin-left: 7.5em;
+}

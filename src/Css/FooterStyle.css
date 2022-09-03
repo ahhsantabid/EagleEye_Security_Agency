@@ -1,0 +1,193 @@
+.footer{
+    font-size: 1.2em;
+}
+.footer a{
+    color: inherit;
+}
+.footerTop{
+    background-color: #000000 ;
+    background-repeat: no-repeat;
+    background-size: auto,200%;
+    background-position: center,center;
+    color:white;
+}
+
+.container{
+    max-width: 1400px;
+    width: 95%;
+    margin: 0px auto;
+}
+.container-flex{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+.socialList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.footerTop .socialLink{
+    background-color: white;
+    color: rgb(7, 116, 159);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footerTop .socialLink:is(:hover, :focus){
+    background-image: var(--gradient-2);
+    color: #ffb700;
+}
+.footerList:not(:last-child){
+    margin-block-end: 25px;
+}
+.footerListTitle{
+    font-size: var(--fs-5);
+    font-weight: var(--fw-700);
+    margin-block-end: 15px;
+}
+
+
+.footerItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    padding-block: 10px;
+}
+.footerItemIcon{
+    background-image: var(--gradient-2);
+    padding: 13px;
+    border-radius: 50%;
+}
+.footerBrand{
+    width: 100%;
+}
+.footerBrand .logo{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.logo:hover{
+    
+    color: #ffa90a;
+
+}
+.footerBrand p{
+    margin: 10px 0px;
+    /* margin-bottom: 8px; */
+}
+.socialList{
+    margin: 30px 0px;
+    text-decoration: none;
+    
+    }
+   .socialList .socialLink{
+        border-radius: 28%;
+        font-size: 1.4rem;
+        margin-right: 13px;
+    }
+    .footerLink{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        margin: 11px 0px;
+        margin-left: 2.5rem;
+    }
+    .footerList{
+        width: 100%;
+      
+
+    }
+    .footerLink:hover{
+        color: #ffa90a;
+    }
+    
+    .footerList .footerListTitle{
+        font-size: 2.2rem;
+        margin: 6px 3px;
+    }
+  .footerList-ourLink{
+    font-size: 2.2rem;
+    margin: 6px 3px;
+  }
+
+    .footerBottom{
+        text-align: center;
+        height: 2em;
+        background-color: #252525;
+       
+    }
+    .footerBottom .copyright{
+        align-items: center;
+        margin: 0px auto;
+        font-size: 1.1em;
+        color: white;
+    }
+    .footerBottom .copyright span{
+        font-size: 1em;
+        color: rgb(210, 210, 210);
+        font-weight: bold;
+
+    }
+
+
+    @media screen and (max-width:1120px) {
+        html{
+            font-size: 15px;
+        }
+        
+    }
+    @media screen and (max-width:1015px) {
+        html{
+            font-size: 13px;
+        }
+        .footerBrand .logo{
+            font-size: 2rem;
+          
+        }
+        .footerList .footerListTitle{
+            font-size: 2rem;
+            margin: 6px 3px;
+        }
+        
+    }
+    @media screen and (max-width:850px) {
+        html{
+            font-size: 12px;
+        }
+        
+    }
+    @media screen and (max-width:780px) {
+        html{
+            font-size: 16px;
+            
+        }
+        
+    }
+    @media screen and (max-width:550px) {
+        html{
+            font-size: 13px;
+            
+        }
+        
+    }
+    @media screen and (max-width:400px) {
+        html{
+            font-size: 12px;
+            
+        }
+    }
+        @media screen and (max-width:330px) {
+            html{
+                font-size: 11.5px;
+                
+            }
+        
+    }

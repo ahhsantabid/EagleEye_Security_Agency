@@ -1,0 +1,81 @@
+
+.contactfullpage{
+    background-color:#ffa90a;
+}
+.contactPage{
+    display: flex;
+    width: 1100px;
+    
+}
+.contactPage{
+    width: 900px;
+
+}
+.icon{
+    font-size: 1.1em;
+}
+.leftcontact{
+    width: 40%;
+    margin-left: 5em;
+}
+.address p{
+    font-size: 1.2em;
+    color: white;
+}
+.address h3{
+    font-size: 2em;
+}
+
+.phone p{
+    font-size: 1.2em;
+    color: white;
+}
+.phone h3{
+    font-size: 2em;
+    
+}
+
+.email p{
+    font-size: 1.2em;
+    color: white;
+
+}
+.email h3{
+    font-size: 2em;
+}
+
+.containerform{
+    width: 200px;
+    margin-left: 18em;
+    width: 100%;
+}
+.mb-3{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.text-center h1{
+    font-weight: bolder;
+    background-color: #0d0d0d;
+    padding: 6px;
+    margin-bottom: 1.3em;
+    width: 75%;
+    margin-left: 3.3em;
+    border-radius: 40px;
+
+}
+.form-control{
+    font-size: 1em;
+}
+.text-center p{
+    color: #f7f6f6;
+    font-size: 1.1em;
+    margin-bottom: 5em;
+}
+.icon{
+    color: white;
+}
+.btn{
+    color: #f7f6f6;
+    background-color: black;
+}

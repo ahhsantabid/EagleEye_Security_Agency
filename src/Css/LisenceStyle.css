@@ -1,0 +1,26 @@
+.document{
+    width: 1300px;
+    margin: 0px auto;
+   align-items: center;
+   display: flex;
+  justify-content: space-around;
+
+}
+
+.tradeLisence img{
+    width:100%;
+    margin-right: 8em;
+}
+.certificate img{
+    width: 80%;
+}
+.govt img{
+    width: 30em;
+}
+.paragraph{
+    font-size: 1.4em;
+    width: 70rem;
+    text-align: center;
+    margin-left: 11em;
+    color: rgb(88, 87, 87);
+}
