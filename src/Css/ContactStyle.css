@@ -4,22 +4,30 @@
 }
 .contactPage{
     display: flex;
-    width: 1100px;
+    width: 1200px;
+
     
 }
+
+.container{
+    width: 85%;
+}
 .contactPage{
-    width: 900px;
+    width: 800px;
 
 }
 .icon{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 .leftcontact{
-    width: 40%;
-    margin-left: 5em;
+    width: 100%;
+    margin-left: 13em;
+
 }
 .address p{
     font-size: 1.2em;
+    width: 15em;
+
     color: white;
 }
 .address h3{
@@ -29,6 +37,7 @@
 .phone p{
     font-size: 1.2em;
     color: white;
+
 }
 .phone h3{
     font-size: 2em;
@@ -36,32 +45,36 @@
 }
 
 .email p{
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: white;
 
 }
 .email h3{
     font-size: 2em;
+    color: black;
+
 }
 
 .containerform{
-    width: 200px;
-    margin-left: 18em;
-    width: 100%;
+    width:100%;
+    /* margin-left: 5em; */
+  
 }
 .mb-3{
-    font-size: 1.3em;
+    width: 30em;
+    margin-left: 30em;
     font-weight: bold;
 }
 
 .text-center h1{
     font-weight: bolder;
-    background-color: #0d0d0d;
+    /* background-color: #0d0d0d; */
     padding: 6px;
     margin-bottom: 1.3em;
     width: 75%;
     margin-left: 3.3em;
     border-radius: 40px;
+    color: black;
 
 }
 .form-control{
@@ -78,4 +91,5 @@
 .btn{
     color: #f7f6f6;
     background-color: black;
+    margin-left: 7em;
 }

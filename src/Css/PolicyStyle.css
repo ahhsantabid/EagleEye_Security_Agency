@@ -1,12 +1,12 @@
 .policyFullPage{
-  background-color:#ffa90a;
+  background-color:white;
 }
 .policyFullPage p{
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.8em;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     text-align: center;
-    color: rgb(40, 40, 40);
-    width: 60%;
-    margin-left: 19rem;
+    color: black;
+    width: 80%;
+    margin-left: 10rem;
 }

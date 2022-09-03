@@ -7,13 +7,17 @@ header {
     box-shadow: 2px 2px 5px rgb(238, 238, 238);
 }
 
+header{
+    background-color: white;
+
+}
 .container {
     margin: 0px auto;
-    width: 95%;
+    width: 100%;
 }
 
 .container-flex {
-    max-width: 1400px;
+    max-width:1300px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -21,45 +25,57 @@ header {
 }
 
 .logo {
-    width: 120px;
-    margin-right: 11em;
-    /* padding: 0.5rem 0; */
+    width: 80px;
+    margin-right: 20em;
+    padding: 0.5rem 0;
+    border-radius: 50%;
 }
 
 .logo img {
-    width:8em;
-    border-radius: 100px;
+    width:7em;
+    border-radius: 17%;
     text-align: left;
 }
 
 .listItem {
     text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 2rem;
-    color: #ffa90a;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    color: #ff9e02;
     font-weight: bold;
 }
 
 .activeItem {
     color: white;
-    background-color: #ffa90a;
-    padding: 5px;
-    border-radius: 15px;
+    background-color: #ff9e02;
+    padding: 7px;
+    border-radius: 5px;
 }
 
+.listItem:hover{
+    color: #101010;
+    text-decoration: underline;
+}
+
+
 .icons {
-    color: #2d383f;
+    color: #0e0d0d;
     font-size: 1.4rem;
 }
 
 .icons span {
-    color: orangered;
+    color: rgb(246, 61, 15);
     font-size: 1.7rem;
     font-weight: bold;
 }
 .list{
     display: flex;
-    margin-right: 8em;
+    margin-right: 15em;
+}
+.email{
+    font-size: 0.8em;
+    color: rgb(116, 114, 114);
+    font-weight: bold;
 }
 
 

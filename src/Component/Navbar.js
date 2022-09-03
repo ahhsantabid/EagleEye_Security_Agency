@@ -32,7 +32,8 @@ const navbar = () => {
 
             <div className="icons">
                 
-                  <p>Hotline:     <BsFillTelephoneFill/><span>+8801745698555</span> </p>
+                  <p><BsFillTelephoneFill/> Hotline:     <span>+8801745698555</span>  <p className='email'>eagleeyeagency@gmail.com</p> </p>
+                 
             </div>
         </div>
       </header>

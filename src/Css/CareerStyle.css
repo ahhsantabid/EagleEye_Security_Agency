@@ -1,6 +1,17 @@
 
+.bothcontainer{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 37px;
+      
+
+}
+
 .fullcontainer{
-    width: 90%;
+    width:85%;
+
 }
 .btn{
     margin-right: 2em;
@@ -9,14 +20,44 @@
 .text-center h2{
     font-weight: bold;
     font-size: 2em;
+    color: black;
 }
 .cv{
     margin-right: 2em;
 }
 .mb-3{
-    width: 70%;
+    width: 50%;
     margin-left: 15em ;
+    color: white;
+    padding: 5px;
 }
 .buttonall{
-    margin-left: 19em;
+    /* margin-left: 19em; */
+}
+
+.popularPart{
+    display: flex;
+    flex-direction: column;
+    width: 19em;
+    margin-right: 13em;
+    text-align: center;
+}
+.popularService{
+    display: flex;
+    flex-direction: column;
+    width: 19em;
+    margin-right: 13em;
+    text-align: center;
+    border: 2px solid ghostwhite;
+    padding: 50px;
+}
+.careerbtn{
+   
+    margin-bottom: 0.8em;
+    font-size: 1.2em;
+    background-color: #f5f2f2;
+    padding: 4px;
+}
+.heading h5{
+    font-size: 1.3em;
 }
