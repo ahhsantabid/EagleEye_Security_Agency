@@ -3,10 +3,15 @@ import { NavLink } from 'react-router-dom'
 import '../Css/AboutStyle.css';
 import ManagementTeam from './ManagementTeam';
 import Partnership from './Partnership';
-
+import Navbar from './Navbar';
+import '../Css/NavbarStyle.css'
 const About = () => {
   return (
+    
     <div>
+    <Navbar/>
+
+      
      <div className="mainSection">
       <div className="leftBox">
         <h1>Why Choose Us <hr /></h1>

@@ -1,13 +1,17 @@
 
 .text-center h1{
-    font-size: 3em;
-    margin-top: 2em ;
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-top: 2.2em ;
+    background-color: #202020;
+    color:red;
 }
 .partnershipPera{
     width: 85%;
     margin: 0px auto;
     font-size: 1.3em;
-    background-color: #ffa90a;
+    /* background-color: #ffa90a; */
+    background-image: linear-gradient(to right,#ffa902,rgb(236, 232, 232));
     padding: 40px;
     
 }

@@ -1,7 +1,7 @@
 const Team=[
     {
         id:1,
-        title:"Farzana Alom",
+        title:"Lamiya Cho",
         secondtitle:"Chairman",
         para:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum possimus, praesentium doloribus doloremque, sit pariatur eveniet ab iste ad voluptatibus architecto labore maxime, cupiditate assumenda?",
         image:"https://images.pexels.com/photos/8528741/pexels-photo-8528741.jpeg?auto=compress&cs=tinysrgb&w=600"

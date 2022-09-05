@@ -8,6 +8,7 @@ import Contact from './Contact'
 import Policy from './Policy'
 import ClientReview from './ClientReview'
 import License from './License'
+import HomeAnimation from './HomeAnimation'
 
 
 
@@ -57,13 +58,8 @@ const Home = () => {
 
        
       </div>
-
       
-   <About/>
-   <Service/>
-   <Contact/>
-   <License/>
-   <Policy/>
+   
     </div>
   )
 }

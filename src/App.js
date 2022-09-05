@@ -12,6 +12,7 @@ import ChooseUs from './Component/ChooseUs'
 import Partnership from './Component/Partnership'
 import License from './Component/License'
 import Career from './Component/Career'
+import HomeAnimation from './Component/HomeAnimation'
 
 
 
@@ -20,12 +21,13 @@ const App = () => {
   return (
    <>
    
-   <Navbar/>
+   
+   
    
   
 
    <Switch>
-     <Route exact path="/" component={Home}/>
+     <Route exact path="/" component={HomeAnimation}/>
      <Route path="/about" component={About}/>
      <Route path="/service" component={Service}/>
      <Route path="/contact" component={Contact}/>
@@ -34,6 +36,7 @@ const App = () => {
      <Route path="/chooseus" component={ChooseUs}/>
      <Route path="/license" component={License}/>
      <Route path="/career" component={Career}/>
+     
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { BsFillTelephoneFill } from "react-icons/bs";
 import "../Css/NavbarStyle.css"
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 
 
@@ -12,7 +12,7 @@ const navbar = () => {
         <div className="container container-flex">
             <div className="logo">
 
-              <NavLink to="/" className='navLogo'><img src="./image/logoo.svg" alt="" /></NavLink>
+              <NavLink to="/" className='navLogo'><img src="./image/logo.jpeg" alt="" /></NavLink>
             
             </div>
 

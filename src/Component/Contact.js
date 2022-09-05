@@ -4,9 +4,12 @@ import '../Css/ContactStyle.css';
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
+import Navbar from './Navbar';
+import '../Css/NavbarStyle.css'
 const Contact = () => {
   return (
     <div>
+      <Navbar/>
       <div className="contactfullpage">
       <div className="container">
         <div className="text-center">

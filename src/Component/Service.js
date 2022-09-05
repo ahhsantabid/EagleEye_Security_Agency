@@ -4,11 +4,13 @@ import Card from './Card';
 import Data from './ApiDataService';
 import Testimonial from './Testimonial';
 import ClientReview from './ClientReview';
+import Navbar from './Navbar';
+import '../Css/NavbarStyle.css'
 
 const Service = () => {
   return (
     <div>
-
+<Navbar/>
       <div className="text-center"><h1>Our Services</h1></div>
 
       <div className="serviceContainer">

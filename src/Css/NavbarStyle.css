@@ -1,10 +1,10 @@
 :root {
-    --mainColor: white;
+    --mainColor: rgb(239, 239, 239);
 }
 
 header {
     background-color: var(--mainColor);
-    box-shadow: 2px 2px 5px rgb(238, 238, 238);
+   
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 }
 
 .container-flex {
-    max-width:1300px;
+    max-width:1200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -25,37 +25,22 @@ header{
 }
 
 .logo {
-    width: 80px;
-    margin-right: 20em;
+    width: 70px;
+    margin-right: 10em;
     padding: 0.5rem 0;
     border-radius: 50%;
 }
 
 .logo img {
-    width:7em;
+    width:6.2em;
     border-radius: 17%;
     text-align: left;
 }
 
-.listItem {
-    text-decoration: none;
-    font-size: 1.3rem;
-    margin-left: 1.5rem;
-    color: #ff9e02;
-    font-weight: bold;
-}
 
-.activeItem {
-    color: white;
-    background-color: #ff9e02;
-    padding: 7px;
-    border-radius: 5px;
-}
 
-.listItem:hover{
-    color: #101010;
-    text-decoration: underline;
-}
+
+
 
 
 .icons {
@@ -63,15 +48,57 @@ header{
     font-size: 1.4rem;
 }
 
+.icons p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 3em;
+}
+
 .icons span {
     color: rgb(246, 61, 15);
     font-size: 1.7rem;
-    font-weight: bold;
-}
-.list{
-    display: flex;
-    margin-right: 15em;
-}
+    font-weight: bold;}
+    .list{
+        /* color: #fff; */
+    }
+    .listItem{
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin-left: 1.2rem;
+        /* color: #ff9e02; */
+        font-family: sans-serif;
+        font-weight: bold;
+        color: black;
+    }
+    
+    
+    /* .listItem::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    .listItem:hover::after{
+        width: 100%;
+    } */
+    
+    .activeItem {
+        color: black;
+        background-color: #f83c0d;
+        padding: 4px;
+        border-radius: 8px;
+    }
+    
+    .listItem:hover{
+        color: #f83c0d;
+       text-decoration: underline 2px solid #fff;
+       
+        transition: 0.3s;
+    }
 .email{
     font-size: 0.8em;
     color: rgb(116, 114, 114);
