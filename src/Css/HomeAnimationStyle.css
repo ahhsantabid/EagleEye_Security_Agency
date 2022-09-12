@@ -91,19 +91,43 @@ animation: slide 5s infinite;
     margin: 160px auto 0;
     text-align: center;
     color: #fff;
+    /* transform: translate(-50%,-50%); */
 }
 .content h1{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
+    position: relative;
+    animation: text 2s 1;
+    letter-spacing: 3px;
+
+
 }
 .content h5{
     width: 80%;
     margin:20px auto 100px;
     font-weight: 100;
     line-height: 25px;
-    color: #ff7b00;
+    color: rgb(225, 225, 225);
+    font-size: 1em;
 
 
+}
+
+@keyframes text{
+    0%{
+        color: #f83c0d;
+        margin-bottom: -3px;
+    }
+    30%{
+         letter-spacing: 11px;
+        margin-bottom: -12px;
+        
+    }
+
+    85%{
+        letter-spacing: 2px;
+       margin-bottom: -40px;
+   }
 }
 
 button{

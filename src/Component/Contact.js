@@ -14,7 +14,9 @@ const Contact = () => {
       <div className="container">
         <div className="text-center">
           <h1>Contact Us</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum cumque tempore molestiae qui delectus porro magnam. Reprehenderit sunt recusandae excepturi temporibus unde consequatur repudiandae voluptatibus quaerat alias iure praesentium delectus nihil vel ipsum adipisci, ratione quod inventore reiciendis. Voluptates, neque.</p>
+          <p>Eagle Eye Security Service is Bangladesh’s premium security services company. But what sets us apart is our diligent, incessant pursuit of excellence in our work.
+
+We provide the widest range of security solutions across all 64 districts of Bangladesh, as well as maintaining a steady international clientele. Our operations are coordinated by the very best of military trained, professional and a dexterous workforce.</p>
 
           </div>
           <div className="contactPage">
@@ -72,7 +74,12 @@ const Contact = () => {
         </div>
       </div>
       </div>
+
+      <div className="map">
+        <img src="../image/map.png" alt="" />
       </div>
+      </div>
+
       <hr />
     </div>
   )

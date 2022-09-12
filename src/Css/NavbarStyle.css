@@ -14,6 +14,7 @@ header{
 .container {
     margin: 0px auto;
     width: 100%;
+ 
 }
 
 .container-flex {
@@ -21,6 +22,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+   
+
 
 }
 
@@ -56,7 +59,7 @@ header{
 
 .icons span {
     color: rgb(246, 61, 15);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;}
     .list{
         /* color: #fff; */
@@ -87,23 +90,32 @@ header{
     } */
     
     .activeItem {
-        color: black;
+        color: #fff;
         background-color: #f83c0d;
         padding: 4px;
         border-radius: 8px;
     }
     
     .listItem:hover{
-        color: #f83c0d;
-       text-decoration: underline 2px solid #fff;
+        color:#f83c0d;
+       text-decoration: underline 2px solid #f83c0d;
        
-        transition: 0.3s;
     }
 .email{
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: rgb(116, 114, 114);
     font-weight: bold;
 }
+
+/* .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  } */
 
 
 @media screen and (max-width:1250px) {

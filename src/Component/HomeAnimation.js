@@ -7,6 +7,8 @@ import App from '../App';
 
 
 
+
+
 const HomeAnimation = () => {
   return (
     <div>
@@ -46,8 +48,8 @@ const HomeAnimation = () => {
             </div>
 
             <div className="content">
-                <h1>Welcome to Eagle Eye Security Agency</h1>
-                <h5>The company provides male and female security guardshomes, apartments, offices, banks, NGOs, construction sites, factories, events etc. Guards can be provided for any time of the day in 8 hour shifts as per requirement of the client.</h5>
+                <h1 className='text1'>Welcome to Eagle Eye Security Agency</h1>
+                <h5 className='text2'>The company provides male and female security guardshomes, apartments, offices, banks, NGOs, construction sites, factories, events etc. Guards can be provided for any time of the day in 8 hour shifts as per requirement of the client.</h5>
 
                 <div >
                     <NavLink to="/service" className='button'><button >WATCH MORE</button></NavLink>

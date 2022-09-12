@@ -3,13 +3,15 @@ import '../Css/CareerStyle.css'
 import { NavLink } from 'react-router-dom'
 import Navbar from './Navbar';
 import '../Css/NavbarStyle.css'
+import Modal from './Modal';
 
 const Career = () => {
+
   return (
     <div>
       <Navbar/>
 
-      <div className="text-center"><h1>Drop your CV</h1></div>
+      <div className="text-center"><h3>Drop your CV</h3></div>
 
       <div className="bothcontainer">
 
@@ -61,7 +63,7 @@ const Career = () => {
         <div className="popularPart">
           <div className="heading"><h4>Popular Service</h4></div>
           <div className="popularService">
-            <div className="careerbtn"> <button>Security Guard</button></div>
+            <div className="careerbtn"> <button >Security Guard</button></div>
             <div className="careerbtn"> <button>Driver</button></div>
             <div className="careerbtn"> <button>Female Body Guard</button></div>
             <div className="careerbtn">  <button>Night Guard</button></div>
